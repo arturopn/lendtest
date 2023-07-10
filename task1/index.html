@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <div id="mainContent" class="alignCenter">
+    <h1>Lend Coding Test Task 1</h1>
+    <button id="openDialog">Open Dialog</button>
+    </div>
+    
+    <div id="overlay" class="overlay"></div>
+    <div id="dialog" class="modal">
+      <div class="modal-content">
+        <h2>Fill the inputs</h2>
+        <label for="inputA">A:</label>
+        <input type="number" id="inputA" required>
+        <label for="inputB">B:</label>
+        <input type="number" id="inputB">
+        <label for="inputC">C:</label>
+        <input type="number" id="inputC">
+        <p id="resultText"></p>
+        <div class="alignCenter">
+        <button id="saveButton">Save</button>
+        <button id="closeButton">Close</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
